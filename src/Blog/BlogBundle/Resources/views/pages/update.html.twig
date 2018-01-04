@@ -1,0 +1,9 @@
+{% extends 'BlogBundle:pages:layout.html.twig' %}
+{% block body %}
+<div class="container">
+<h3>Update Post</h3>
+{{form_start(form)}}
+{{form_widget(form)}}
+<a href="{{absolute_url(asset(''))}}post" 
+class="btn btn-success ">Back</a></div>
+{% endblock %}
